@@ -1,7 +1,7 @@
 ### Network Security Project For Phishing Data
 This repository contains a Python-based network security project focused on phishing-related data handling, detection, and web service interaction. It uses web frameworks, data processing, and MongoDB integration as part of its toolchain.
 
----
+
 
 ## 🚀 Overview
 
@@ -14,10 +14,10 @@ This project provides tools and services related to **network security** workflo
 - Dependency and packaging support (`setup.py`, `requirements.txt`)  
 
 
----
+
 
 ## 📁 Repository Structure
-
+```
 ├── .github/workflows/ # CI/CD workflows
 ├── .vscode/ # VS Code config
 ├── Network_Data/ # Datasets and sample data
@@ -35,11 +35,8 @@ This project provides tools and services related to **network security** workflo
 ├── setup.py # Package settings
 └── README.md # Project documentation
 
-yaml
-Copy code
-:contentReference[oaicite:2]{index=2}
+```
 
----
 
 ## 📌 Features
 
@@ -48,9 +45,8 @@ Copy code
 ✔ Containerization support via Docker  
 ✔ CI/CD configured via GitHub Actions  
 ✔ Expandable template for security research and automation  
-:contentReference[oaicite:3]{index=3}
 
----
+
 
 ## 🧠 Installation
 
@@ -90,10 +86,10 @@ docker run -p 8000:8000 network-security
 ## 🛠 CI / CD Status
 All automated workflows are passing successfully:
 
-Workflow	Status
-Continuous Delivery (push)	✅ All checks have passed (Successful in 1m)
-Continuous Integration (push)	✅ All checks have passed (Successful in 6s)
-Continuous-Deployment (push)	✅ All checks have passed (Successful in 31s)
+- Workflow	Status
+- Continuous Delivery (push)	✅ All checks have passed (Successful in 1m)
+- Continuous Integration (push)	✅ All checks have passed (Successful in 6s)
+- Continuous-Deployment (push)	✅ All checks have passed (Successful in 31s)
 
 You can view these checks in the Actions tab of your GitHub repository.
 The above statuses reflect successful GitHub Actions runs.
