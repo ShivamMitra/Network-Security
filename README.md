@@ -1,7 +1,7 @@
 ### Network Security Project For Phishing Data
 This repository contains a Python-based network security project focused on phishing-related data handling, detection, and web service interaction. It uses web frameworks, data processing, and MongoDB integration as part of its toolchain.
 
-
+[![workflow](https://github.com/ShivamMitra/Network-Security/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/ShivamMitra/Network-Security/actions/workflows/main.yml)
 
 ## 🚀 Overview
 
